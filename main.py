@@ -1,6 +1,7 @@
 def init_chat():
   quit_character = 'q'
-
+  
+  # Conversation code
   name = input("You know, you haven't told me your name? What's your name?\n")
   print("That's a nice name")
   user_input = input("Well then " + name + ", how do you do?\n")
